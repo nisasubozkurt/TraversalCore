@@ -25,6 +25,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<Newsletter> Newsletters { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<SubAbout> SubAbouts { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<Testimonial> Testimonials { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
+        public DbSet<Comment> Comments { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
 
 
     }
