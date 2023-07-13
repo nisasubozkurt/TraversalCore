@@ -5,8 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Views\Shared\bootstrap.css" />
+    <Content Include="Views\Shared\bootstrap.css.map" />
+    <Content Include="Views\Shared\bootstrap.min.css" />
+    <Content Include="Views\Shared\bootstrap.min.css.map" />
+    <Content Include="Views\Shared\bootstrap.rtl.css" />
+    <Content Include="Views\Shared\bootstrap.rtl.css.map" />
+    <Content Include="Views\Shared\bootstrap.rtl.min.css" />
+    <Content Include="Views\Shared\bootstrap.rtl.min.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="10.3.6" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.12">
       <PrivateAssets>all</PrivateAssets>
@@ -24,6 +37,11 @@
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Member\Data\" />
+    <Folder Include="Areas\Member\Models\" />
   </ItemGroup>
 
 </Project>
