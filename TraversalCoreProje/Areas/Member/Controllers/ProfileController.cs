@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.IO;
 using System.Threading.Tasks;
 using TraversalCoreProje.Areas.Member.Models;
 
@@ -28,6 +29,31 @@ namespace TraversalCoreProje.Areas.Member.Controllers
             userEditViewModel.phonenumber = values.PhoneNumber;
             userEditViewModel.mail = values.Email;
             return View(userEditViewModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Index(UserEditViewModel p)
+        {
+            var user=await _userManager.FindByNameAsync(User.Identity.Name);
+            if (p.Image != null)
+            {
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(p.Image.FileName);
+                var imagename = Guid.NewGuid() + extension;
+                var savelocation= resource +"/wwwroot/userimages/" + imagename;
+                var stream=new FileStream(savelocation, FileMode.Create);
+                await p.Image.CopyToAsync(stream);
+                user.ImageUrl="/userimages/"+ imagename;
+            }
+            user.Name = p.name;
+            user.Surname = p.surname;
+            user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, p.password);
+            var result = await _userManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("SignIn", "Login");
+            }
+            return View();
         }
     }
 }

@@ -5,7 +5,7 @@
 }
 
 <h1>Profil Düzenleme Sayfası</h1>
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     @Html.Label("Adınız")
     <input type="text" asp-for="name" class="form-control"/>
     <br />
@@ -24,5 +24,11 @@
     @Html.Label("Telefon Numaranız")
     <input type="text" asp-for="phonenumber" class="form-control" />
     <br />
+    <div class="form-group">
+        <label>Resim Seçin</label>
+        <input type="file" asp-for="Image" />
+    </div>
+    <br />
+    <button class="btn btn-primary">Bilgileri Güncelle</button>
 </form>
 
