@@ -189,3 +189,6 @@ C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5
 C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Profile\Index.cshtml.g.cs
 C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\_ViewImports.cshtml.g.cs
 C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\NewReservation.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyCurrentReservation.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyOldReservation.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyApprovalReservation.cshtml.g.cs
