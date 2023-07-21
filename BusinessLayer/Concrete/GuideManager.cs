@@ -23,6 +23,16 @@ namespace BusinessLayer.Concrete
             _guideDal.Insert(t);
         }
 
+        public void TChangeToFalseByGuide(int id)
+        {
+            _guideDal.ChangeToFalseByGuide(id);
+        }
+
+        public void TChangeToTrueByGuide(int id)
+        {
+            _guideDal.ChangeToTrueByGuide(id);
+        }
+
         public void TDelete(Guide t)
         {
             _guideDal.Delete(t);
@@ -30,7 +40,7 @@ namespace BusinessLayer.Concrete
 
         public Guide TGetByID(int id)
         {
-           return _guideDal.GetByID(id);
+            return _guideDal.GetByID(id);
         }
 
         public List<Guide> TGetList()

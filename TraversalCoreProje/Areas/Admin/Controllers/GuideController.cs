@@ -21,11 +21,13 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             var values = _guideService.TGetList();
             return View(values);
         }
+
         [HttpGet]
         public IActionResult AddGuide()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult AddGuide(Guide guide)
         {
@@ -46,6 +48,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             }
 
         }
+
         [HttpGet]
         public IActionResult EditGuide(int id)
         {
@@ -57,18 +60,26 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
         public IActionResult EditGuide(Guide guide)
         {
             _guideService.TUpdate(guide);
-            return RedirectToAction("Index");
+            return RedirectToAction("Guide", "Admin");
         }
+
+        public IActionResult DeleteGuide(int id)
+        {
+            var values = _guideService.TGetByID(id);
+            _guideService.TDelete(values);
+            return RedirectToAction("Guide", "Admin");
+        }
+
         public IActionResult ChangeToTrue(int id)
         {
-           // _guideService.TChangeToTrueByGuide(id);
-            return RedirectToAction("Index");
+            _guideService.TChangeToTrueByGuide(id);
+            return RedirectToAction("Guide", "Admin");
         }
 
         public IActionResult ChangeToFalse(int id)
         {
-           // _guideService.TChangeToFalseByGuide(id);
-            return RedirectToAction("Index");
+            _guideService.TChangeToFalseByGuide(id);
+            return RedirectToAction("Guide", "Admin");
         }
     }
 }
