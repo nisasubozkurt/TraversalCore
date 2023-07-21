@@ -19,6 +19,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<About> Abouts { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<About2> Abouts2 { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<Contact> Contacts { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
+        public DbSet<ContactUs> ContactUses { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<Destination> Destinations { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<Feature> Features { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<Feature2> Features2 { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
@@ -28,6 +29,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<Testimonial> Testimonials { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<Comment> Comments { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<Reservation> Reservations { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
+        public DbSet<Announcement> Announcements { get; set; }
 
 
     }

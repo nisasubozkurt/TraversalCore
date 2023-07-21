@@ -18,3 +18,5 @@ C:\Users\LaraA\source\repos\TraversalCoreProje\BusinessLayer\obj\Debug\net5.0\re
 C:\Users\LaraA\source\repos\TraversalCoreProje\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
 C:\Users\LaraA\source\repos\TraversalCoreProje\BusinessLayer\obj\Debug\net5.0\BusinessLayer.genruntimeconfig.cache
 C:\Users\LaraA\source\repos\TraversalCoreProje\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\LaraA\source\repos\TraversalCoreProje\BusinessLayer\bin\Debug\net5.0\DTOLayer.dll
+C:\Users\LaraA\source\repos\TraversalCoreProje\BusinessLayer\bin\Debug\net5.0\DTOLayer.pdb
