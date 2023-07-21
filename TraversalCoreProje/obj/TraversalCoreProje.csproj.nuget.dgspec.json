@@ -364,6 +364,10 @@
               "target": "Package",
               "version": "[10.3.6, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"

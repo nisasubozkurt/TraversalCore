@@ -198,3 +198,53 @@ System.InvalidOperationException: Unable to resolve service for type 'BusinessLa
 2023-07-21T13:12:19.0984042+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
 2023-07-21T13:12:19.1048386+03:00  [INF] Hosting environment: "Development" (c3307c92)
 2023-07-21T13:12:19.1049389+03:00  [INF] Content root path: "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2023-07-21T14:20:04.1069058+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-07-21T14:20:04.1138820+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-07-21T14:20:04.1139690+03:00  [INF] Content root path: "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2023-07-21T14:22:09.8392226+03:00 4000003f-0002-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials w12-20020a17090633cc00b0099275c59bc9sm2026539eja.33 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials w12-20020a17090633cc00b0099275c59bc9sm2026539eja.33 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at TraversalCoreProje.Areas.Admin.Controllers.MailController.Index(MailRequest mailRequest) in C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Controllers\MailController.cs:line 36
+   at lambda_method206(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-21T14:35:15.4991954+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-07-21T14:35:15.5044363+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-07-21T14:35:15.5045158+03:00  [INF] Content root path: "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2023-07-21T14:36:58.0013482+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-07-21T14:36:58.0075401+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-07-21T14:36:58.0076222+03:00  [INF] Content root path: "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2023-07-21T14:49:41.9033855+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-07-21T14:49:41.9101150+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-07-21T14:49:41.9101991+03:00  [INF] Content root path: "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2023-07-21T14:49:53.5461269+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-07-21T14:49:53.5521451+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-07-21T14:49:53.5522809+03:00  [INF] Content root path: "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)
+2023-07-21T14:51:06.5249478+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-07-21T14:51:06.5302903+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-07-21T14:51:06.5303655+03:00  [INF] Content root path: "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje" (b5d60022)

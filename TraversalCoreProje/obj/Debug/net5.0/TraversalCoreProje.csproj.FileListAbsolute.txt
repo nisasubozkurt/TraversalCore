@@ -261,3 +261,9 @@ C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5
 C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\MailKit.dll
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\MimeKit.dll
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Mail\Index.cshtml.g.cs
