@@ -49,10 +49,6 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Member\Data\" />
-    <Folder Include="CQRS\Commands\GuideCommands\" />
-    <Folder Include="CQRS\Handlers\GuideHandlers\" />
-    <Folder Include="CQRS\Queries\GuideQueries\" />
-    <Folder Include="CQRS\Results\GuideResult\" />
     <Folder Include="wwwroot\pdfreports\" />
     <Folder Include="wwwroot\userimages\" />
   </ItemGroup>

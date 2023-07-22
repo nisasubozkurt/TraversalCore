@@ -284,3 +284,8 @@ C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5
 C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\Index.cshtml.g.cs
 C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\GetDestination.cshtml.g.cs
 C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\DestinationCQRS\AddDestination.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\GuideMediatR\GetGuides.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\GuideMediatR\Index.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\GuideMediatR\AddGuide.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Guide\EditGuide.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Index.cshtml.g.cs

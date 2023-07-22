@@ -30,6 +30,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<Comment> Comments { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<Reservation> Reservations { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın
         public DbSet<Announcement> Announcements { get; set; }
+        public DbSet<Account> Accounts { get; set; }
 
 
     }
