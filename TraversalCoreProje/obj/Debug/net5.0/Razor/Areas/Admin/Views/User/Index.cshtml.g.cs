@@ -21,7 +21,7 @@ using TraversalCoreProje;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
-using TraversalCoreProje.Areas.Member.Models;
+using TraversalCoreProje.Areas.Admin;
 
 #line default
 #line hidden
@@ -34,6 +34,13 @@ using DTOLayer.DTOs.AnnouncementDTOs;
 #line hidden
 #nullable disable
 #nullable restore
+#line 5 "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
+using TraversalCoreProje.Areas.Admin.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\LaraA\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\User\Index.cshtml"
 using EntityLayer.Concrete;
 
@@ -41,7 +48,7 @@ using EntityLayer.Concrete;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1e826fb90560f6cf526f07d022c852944d7686fd", @"/Areas/Admin/Views/User/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"16fe298f51d393a087523e61d74af106dd87a3d9", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"557af1f7dd1ff1b949b6911b8808842c1273542d", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_User_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<AppUser>>
     #nullable disable
