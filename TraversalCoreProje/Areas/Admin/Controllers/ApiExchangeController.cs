@@ -23,7 +23,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
                 RequestUri = new Uri("https://booking-com.p.rapidapi.com/v1/metadata/exchange-rates?currency=AED&locale=en-gb"),
                 Headers =
     {
-                { "X-RapidAPI-Key", "472f5d6472msh5b1ff28add5cf26p150d4djsn92308d4186f5" },
+                { "X-RapidAPI-Key", "b0d06eeef2msh84d24b3e6412085p12d286jsnbea64ded0371" },
         { "X-RapidAPI-Host", "booking-com.p.rapidapi.com" },
     },
             };
