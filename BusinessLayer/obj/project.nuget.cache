@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LpfvqinJUAw1ML5pOdIcbCfzMjG5Z/n/m0v4+4ucoOFCvPEtbWr+04qKsgQwGTQt0qlxEGudgs4U1DYBAhTYig==",
+  "dgSpecHash": "cuO7fIb/LFWjmbYQb4Xz2xzuTM74uAcXwdaa2LdlLj6daSjBhaS+Zzi6QHQ4/7rhSamYlozegENlHd7wSKkwFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LaraA\\.nuget\\packages\\epplus\\6.0.7\\epplus.6.0.7.nupkg.sha512",
     "C:\\Users\\LaraA\\.nuget\\packages\\epplus.interfaces\\6.0.0\\epplus.interfaces.6.0.0.nupkg.sha512",

@@ -23,15 +23,17 @@
   <!--/blog-->
   <div class="py-5 w3l-homeblock1 text-center">
     <div class="container mt-md-3">
-        <h3 class="blog-desc-big text-center mb-4">Your Blog Posts are Boring? Here are 9 Tips for
-            Making your Writing more Interesting</h3>
+        <h3 class="blog-desc-big text-center mb-4">
+            Alanında en yetkin rehberlerimizle
+            en güncel seyahat  hikayelerimizi okumalısınız!
+        </h3>
         <div class="blog-post-align">
             <div class="blog-post-img">
                 <a href="#"><img src="~/Traversal-Liberty/assets/images/c1.jpg" alt="" class="rounded-circle img-fluid" /></a>
             </div>
             <div class="blog-post-info">
                 <div class="author align-items-center mb-1">
-                    <a href="#">Johnson smith</a> in <a href="#url">Traversal</a>
+                    <a href="#">aaaaa</a> in <a href="#url">Traversal</a>
                 </div>
                 <ul class="blog-meta">
                     <li class="meta-item blog-lesson">
@@ -101,9 +103,10 @@
                     @await Component.InvokeAsync("_GuideDetails")
                         <!--//author-card-->
                     @await Component.InvokeAsync("_CommentList",new {id = ViewBag.i})
-                    @await Html.PartialAsync("~/Views/Comment/AddComment.cshtml")
 
-                        
+                    @await Html.PartialAsync("~/Views/Comment/AddComment.cshtml",new { id = ViewBag.destID})
+
+                        <br />
                     </div>
                 </div>
                 <!--//blog-post-->
@@ -111,3 +114,4 @@
         </section>
 
 </body>
+</html>

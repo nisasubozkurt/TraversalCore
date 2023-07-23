@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CSM1w9Y+lTBh1vmrJEZoj8s78kqdkEpVZtbU9H0HxsJPdtb4HerqBjsjlN/ukYn6prKg/bEpDzqXdjkIQ8JMYg==",
+  "dgSpecHash": "kARWQ7WsNFZ1zfYYzqZWmJeNQGqGeXw0x3gMYLhbxHGgr58wMndvXVQk3W8T9Q8E9PnL7EIrbdF9Pf8qTQTnmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LaraA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\LaraA\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

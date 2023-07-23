@@ -13,7 +13,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=LAPTOP-TO0C5CS2;database=TraversalDB;integrated security=true;");
+            optionsBuilder.UseSqlServer("server=LAPTOP-TO0C5CS2;database=TraversalDB2;integrated security=true;");
         }
 
         public DbSet<About> Abouts { get; set; } // s takılı hali tablo ismi olsun, entity ile karışmasın

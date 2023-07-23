@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj",
+      "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DTOLayer\\DTOLayer.csproj",
       "projectName": "DTOLayer",
-      "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj",
+      "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DTOLayer\\DTOLayer.csproj",
       "packagesPath": "C:\\Users\\LaraA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DTOLayer\\obj\\",
+      "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DTOLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"

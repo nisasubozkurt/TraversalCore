@@ -10,3 +10,15 @@ C:\Users\LaraA\source\repos\TraversalCoreProje\DTOLayer\obj\Debug\net5.0\DTOLaye
 C:\Users\LaraA\source\repos\TraversalCoreProje\DTOLayer\obj\Debug\net5.0\refint\DTOLayer.dll
 C:\Users\LaraA\source\repos\TraversalCoreProje\DTOLayer\obj\Debug\net5.0\DTOLayer.pdb
 C:\Users\LaraA\source\repos\TraversalCoreProje\DTOLayer\obj\Debug\net5.0\ref\DTOLayer.dll
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\bin\Debug\net5.0\DTOLayer.deps.json
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\bin\Debug\net5.0\DTOLayer.dll
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\bin\Debug\net5.0\DTOLayer.pdb
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\obj\Debug\net5.0\DTOLayer.csproj.AssemblyReference.cache
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\obj\Debug\net5.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\obj\Debug\net5.0\DTOLayer.AssemblyInfoInputs.cache
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\obj\Debug\net5.0\DTOLayer.AssemblyInfo.cs
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\obj\Debug\net5.0\DTOLayer.csproj.CoreCompileInputs.cache
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\obj\Debug\net5.0\DTOLayer.dll
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\obj\Debug\net5.0\refint\DTOLayer.dll
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\obj\Debug\net5.0\DTOLayer.pdb
+C:\Users\LaraA\source\repos\TraversalCore\DTOLayer\obj\Debug\net5.0\ref\DTOLayer.dll

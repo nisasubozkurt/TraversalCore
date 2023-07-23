@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\TraversalCoreProje\\TraversalCoreProje.csproj": {}
+    "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\TraversalCoreProje\\TraversalCoreProje.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\LaraA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -34,14 +34,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj": {
-                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj"
+              "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DTOLayer\\DTOLayer.csproj": {
+                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DTOLayer\\DTOLayer.csproj"
               },
-              "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -109,14 +109,14 @@
         }
       }
     },
-    "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\LaraA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -139,8 +139,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -204,14 +204,14 @@
         }
       }
     },
-    "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj": {
+    "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DTOLayer\\DTOLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj",
+        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DTOLayer\\DTOLayer.csproj",
         "projectName": "DTOLayer",
-        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj",
+        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DTOLayer\\DTOLayer.csproj",
         "packagesPath": "C:\\Users\\LaraA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DTOLayer\\obj\\",
+        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DTOLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -265,14 +265,14 @@
         }
       }
     },
-    "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\LaraA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -356,14 +356,14 @@
         }
       }
     },
-    "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\TraversalCoreProje\\TraversalCoreProje.csproj": {
+    "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\TraversalCoreProje\\TraversalCoreProje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\TraversalCoreProje\\TraversalCoreProje.csproj",
+        "projectUniqueName": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\TraversalCoreProje\\TraversalCoreProje.csproj",
         "projectName": "TraversalCoreProje",
-        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\TraversalCoreProje\\TraversalCoreProje.csproj",
+        "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\TraversalCoreProje\\TraversalCoreProje.csproj",
         "packagesPath": "C:\\Users\\LaraA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\TraversalCoreProje\\obj\\",
+        "outputPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\TraversalCoreProje\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -386,14 +386,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\LaraA\\source\\repos\\TraversalCore\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
