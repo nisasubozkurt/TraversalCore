@@ -585,3 +585,8 @@ C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\re
 C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Guide\Index.cshtml.g.cs
 C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\ContactUs\Index.cshtml.g.cs
 C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\Index.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\CreateRole.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\UpdateRole.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\UserList.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\AssignRole.cshtml.g.cs
