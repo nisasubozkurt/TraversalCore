@@ -590,3 +590,4 @@ C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Ra
 C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\UpdateRole.cshtml.g.cs
 C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\UserList.cshtml.g.cs
 C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\AssignRole.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_LastDestinations\Default.cshtml.g.cs
