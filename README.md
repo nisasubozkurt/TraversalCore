@@ -60,7 +60,7 @@ Veri tabanı olarak SQL Server kullanılarak, BusinessLayer, DataAccessLayer, DT
 
 ![Ekran görüntüsü 2023-07-25 140149](https://github.com/nisasubozkurt/TraversalCore/assets/95681404/c7950814-1675-4ab2-a113-baf89d564412)
 
-<img width="900" alt="Ekran Resmi 2023-07-25 14 08 11" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/fbc7810f-e915-4cea-916e-d73d94fb5a3f">
+<img width="1200" alt="Ekran Resmi 2023-07-25 14 08 11" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/fbc7810f-e915-4cea-916e-d73d94fb5a3f">
 
 <img width="900" alt="Ekran Resmi 2023-07-25 14 03 55" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/13fdc5d6-27f8-46d9-a0eb-0fc50b77870b">
 
