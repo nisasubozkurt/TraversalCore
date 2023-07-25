@@ -625,3 +625,5 @@ C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Tr
 C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\TraversalCoreProje.Resources.Views.Shared._MemberLayout.tr.resources
 C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\TraversalCoreProje.Resources.Views.Shared._MemberLayout.fr.resources
 C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Destination\GetCitiesSearchByName.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\PasswordChange\ForgetPassword.cshtml.g.cs
+C:\Users\LaraA\source\repos\TraversalCore\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\PasswordChange\ResetPassword.cshtml.g.cs
