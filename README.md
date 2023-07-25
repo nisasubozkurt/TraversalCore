@@ -9,7 +9,6 @@ Veri tabanı olarak SQL Server kullanılarak, BusinessLayer, DataAccessLayer, DT
  Bu proje, tatil rezervasyonları alanında faaliyet gösteren kapsamlı bir web sitesini temsil ediyor. Sitede, çeşitli tatil seçenekleri geniş bir yelpazede sunuluyor ve kullanıcılar kişisel hesaplarına kolayca giriş yaparak özel fırsatlardan yararlanabiliyorlar. Ayrıca, site içerisinde bulunan admin kullanıcısı, yönetici yetkileri sayesinde tatil paketleri, otel bilgileri ve kullanıcı verileri gibi önemli bilgileri güncelleme, ekleme ve silme gibi CRUD işlemlerini gerçekleştirebiliyor. Projemiz, modern ve şık tasarımıyla kullanıcılara üç farklı benzersiz deneyim sunuyor.
 
 ## Aşağıda, proje geliştirme aşamaları sıralı bir şekilde sunulmaktadır:
-Özür dilerim, yanlış anlamışım. İşte 40 maddelik listeyi 20 maddeye indirgenmiş hali:
 
 1. Katmanlar oluşturuldu ve projenin genel yapısı belirlendi.
 2. Veritabanı işlemleri için Context sınıfı tanımlandı ve migration işlemi gerçekleştirildi.
