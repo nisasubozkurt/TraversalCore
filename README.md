@@ -1,4 +1,4 @@
-<img width="821" alt="Ekran Resmi 2023-07-25 14 06 34" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/bdfe6506-da52-44d9-9734-21a0f18e6537"># TraversalCore
+# TraversalCore
 Traversal Rezervasyon Asp.Net Core 5.0 Mini Proje 
 
 [![Kamp Youtube Kanalı](https://img.shields.io/badge/Kamp%20Youtube%20Kanalı-izlemek%20için%20tıklayın-red)](https://www.youtube.com/playlist?list=PLKnjBHu2xXNMK5MBogdXmsXVi3K_eEZT5)
@@ -60,9 +60,9 @@ Veri tabanı olarak SQL Server kullanılarak, BusinessLayer, DataAccessLayer, DT
 
 ![Ekran görüntüsü 2023-07-25 140149](https://github.com/nisasubozkurt/TraversalCore/assets/95681404/c7950814-1675-4ab2-a113-baf89d564412)
 
-<img width="821" alt="Ekran Resmi 2023-07-25 14 08 11" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/fbc7810f-e915-4cea-916e-d73d94fb5a3f">
+<img width="900" alt="Ekran Resmi 2023-07-25 14 08 11" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/fbc7810f-e915-4cea-916e-d73d94fb5a3f">
 
-<img width="821" alt="Ekran Resmi 2023-07-25 14 03 55" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/13fdc5d6-27f8-46d9-a0eb-0fc50b77870b">
+<img width="900" alt="Ekran Resmi 2023-07-25 14 03 55" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/13fdc5d6-27f8-46d9-a0eb-0fc50b77870b">
 
 ![Ekran görüntüsü 2023-07-25 140425](https://github.com/nisasubozkurt/TraversalCore/assets/95681404/391602eb-f097-40cd-8476-3930bfb5f23a)
 
@@ -72,20 +72,19 @@ Veri tabanı olarak SQL Server kullanılarak, BusinessLayer, DataAccessLayer, DT
 
 ![Ekran görüntüsü 2023-07-25 140755](https://github.com/nisasubozkurt/TraversalCore/assets/95681404/669f1326-70e0-47d0-84c3-c7212ed8d9bf)
 
-<img width="820" alt="Ekran Resmi 2023-07-25 14 08 21" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/a7f840db-ea03-4b4c-9ab2-61395cac0623">
-
-<img width="820" alt="Ekran Resmi 2023-07-25 14 08 54" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/0d17af91-74c9-48bb-a7f7-6cc99a303bbb">
-<img width="820" alt="Ekran Resmi 2023-07-25 14 06 06" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/9241a7af-810a-4eb8-821c-e4683f0d6508">
-
-<img width="822" alt="Ekran Resmi 2023-07-25 14 06 18" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/06c0b40c-63f8-452a-838a-07f5da1fb518">
-
-<img width="821" alt="Ekran Resmi 2023-07-25 14 06 34" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/5dbc8231-5437-4a35-a224-973fee0f6eb4">
-
-<img width="818" alt="Ekran Resmi 2023-07-25 14 08 38" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/50610f6e-d8ce-4091-bfd7-0e57b413bb70">
-
-<img width="819" alt="Ekran Resmi 2023-07-25 14 09 11" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/42f812a2-6827-47a8-951b-13719eced04e">
-
-<img width="820" alt="Ekran Resmi 2023-07-25 14 09 23" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/2ec7190c-dcc9-46d9-a91c-fffdf2b50a6e">
-
 ![Ekran görüntüsü 2023-07-25 140722](https://github.com/nisasubozkurt/TraversalCore/assets/95681404/b46e975e-402f-4959-8a3a-6d789360866c)
 
+<img width="900" alt="Ekran Resmi 2023-07-25 14 08 21" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/a7f840db-ea03-4b4c-9ab2-61395cac0623">
+
+<img width="900" alt="Ekran Resmi 2023-07-25 14 08 54" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/0d17af91-74c9-48bb-a7f7-6cc99a303bbb">
+<img width="900" alt="Ekran Resmi 2023-07-25 14 06 06" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/9241a7af-810a-4eb8-821c-e4683f0d6508">
+
+<img width="900" alt="Ekran Resmi 2023-07-25 14 06 18" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/06c0b40c-63f8-452a-838a-07f5da1fb518">
+
+<img width="900" alt="Ekran Resmi 2023-07-25 14 06 34" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/5dbc8231-5437-4a35-a224-973fee0f6eb4">
+
+<img width="900" alt="Ekran Resmi 2023-07-25 14 08 38" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/50610f6e-d8ce-4091-bfd7-0e57b413bb70">
+
+<img width="900" alt="Ekran Resmi 2023-07-25 14 09 11" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/42f812a2-6827-47a8-951b-13719eced04e">
+
+<img width="900" alt="Ekran Resmi 2023-07-25 14 09 23" src="https://github.com/nisasubozkurt/TraversalCore/assets/95681404/2ec7190c-dcc9-46d9-a91c-fffdf2b50a6e">
