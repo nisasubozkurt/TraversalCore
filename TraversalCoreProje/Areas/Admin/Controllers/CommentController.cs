@@ -9,15 +9,22 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
     public class CommentController : Controller
     {
         private readonly ICommentService _commentService;
+        private readonly IAppUserService _appUserService;
 
-        public CommentController(ICommentService commentService)
+        public CommentController(ICommentService commentService, IAppUserService appUserService)
         {
             _commentService = commentService;
+            _appUserService = appUserService;
         }
 
         public IActionResult Index()
         {
             var values = _commentService.TGetListCommentWithDestination();
+            foreach(var comment in values)
+            {
+                comment.AppUser = _appUserService.TGetByID(comment.AppUserId);
+                comment.CommentUser = comment.AppUser.Name;
+            }
             return View(values);
         }
 
@@ -26,7 +33,7 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
         {
             var values = _commentService.TGetByID(id);
             _commentService.TDelete(values);
-            return RedirectToAction("Index");
+            return RedirectToAction("Comment","Admin");
         }
     }
 }

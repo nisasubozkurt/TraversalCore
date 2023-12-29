@@ -117,7 +117,7 @@ namespace TraversalCoreProje
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=home}/{action=Index}/{id?}");
+                    pattern: "{controller=Login}/{action=SignIn}/{id?}");
             });
 
             app.UseEndpoints(endpoints =>

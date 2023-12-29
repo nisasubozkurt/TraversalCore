@@ -31,13 +31,14 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
         public IActionResult AddDestination(Destination destination)
         {
             _destinationService.TAdd(destination);
-            return RedirectToAction("Index");
+            destination.GuideID = 1;
+            return RedirectToAction("Destination", "Admin");
         }
         public IActionResult DeleteDestination(int id)
         {
             var values = _destinationService.TGetByID(id);
             _destinationService.TDelete(values);
-            return RedirectToAction("Index");
+            return RedirectToAction("Destination", "Admin");
         }
         [HttpGet]
         public IActionResult UpdateDestination(int id)
@@ -49,8 +50,11 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult UpdateDestination(Destination destination)
         {
+
+            var values = _destinationService.TGetByID(destination.DestinationID);
+            destination.GuideID = values.GuideID;
             _destinationService.TUpdate(destination);
-            return RedirectToAction("Index");
+            return RedirectToAction("Destination", "Admin");
         }
     }
 }

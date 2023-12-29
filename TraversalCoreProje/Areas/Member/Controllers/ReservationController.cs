@@ -4,6 +4,7 @@ using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -27,6 +28,18 @@ namespace TraversalCoreProje.Areas.Member.Controllers
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
             var valuesList = reservationManager.GetListWithReservationByAccepted(values.Id);
+            List<Reservation> reservationList = new List<Reservation>();
+            var nowdate = DateTime.Now;
+            if (valuesList != null)
+            {
+                foreach (var reservation in valuesList)
+                {
+                    if (reservation.ReservationDate >= nowdate)
+                    {
+                        reservationList.Append(reservation);
+                    }
+                }
+            }
             return View(valuesList);
         }
 
@@ -58,10 +71,11 @@ namespace TraversalCoreProje.Areas.Member.Controllers
         [HttpPost]
         public IActionResult NewReservation(Reservation p)
         {
-            p.AppUserId = 3;
+            p.AppUserId = (int)TempData["userId"];
             p.Status = "Onay Bekliyor";
+            p.DestinationID = 1;
             reservationManager.TAdd(p);
-            return RedirectToAction("MyCurrentReservation");
+            return RedirectToAction("Index", "Profile", new { area = "Member" });
         }
         public IActionResult Deneme()
         {

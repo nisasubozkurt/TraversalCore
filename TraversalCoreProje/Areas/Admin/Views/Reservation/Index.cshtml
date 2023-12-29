@@ -1,0 +1,71 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Reservation>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AppUser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PersonCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReservationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppUser.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReservationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destination.DestinationID)
+            </td>
+            <td>
+                    <form action="/Admin/Reservation/Activate" method="post">
+                        <input type="hidden" name="id" value="@item.ReservationID" />
+                        <button type="submit">Onayla</button>
+                    </form>
+                    <form action="/Admin/Reservation/Reject" method="post">
+                        <input type="hidden" name="id" value="@item.ReservationID" />
+                        <button type="submit">Reddet</button>
+                    </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

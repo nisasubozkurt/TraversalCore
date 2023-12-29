@@ -1,4 +1,5 @@
-﻿using EntityLayer.Concrete;
+﻿using BusinessLayer.Abstract;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -12,12 +13,15 @@ namespace TraversalCoreProje.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly IAppUserService _appUserService;
 
-        public LoginController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        public LoginController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IAppUserService appUserService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _appUserService = appUserService;
         }
+
 
         [HttpGet]
         public IActionResult SignUp()
@@ -62,9 +66,12 @@ namespace TraversalCoreProje.Controllers
         {
             if (ModelState.IsValid)
             {
+
+                var user = _appUserService.GetByUserName(p.username);
                 var result  = await _signInManager.PasswordSignInAsync(p.username,p.password,false,true);
                 if (result.Succeeded)
                 {
+                    TempData["userid"] = user.Id;
                     return RedirectToAction("Index", "Profile", new {area ="Member"});
                 }
                 else

@@ -30,6 +30,7 @@ namespace TraversalCoreProje.Controllers
         public IActionResult AddComment(Comment p)
         {
             p.CommentDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            p.AppUserId = (int)TempData["userid"];
             p.CommentStatus = true;
             commentManager.TAdd(p);
             return RedirectToAction("Index","Destination");

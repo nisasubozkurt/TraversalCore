@@ -39,6 +39,17 @@
 							@Html.Label("Varsa Eklemek İstedikleriniz")
 							<input type="text" asp-for="Description" class="form-control" />
 						</div>
+						<div class="form-group">
+                            @Html.Label("Rota")
+                            <select asp-for="DestinationID" class="form-control">
+                                @foreach (var item in ViewBag.v)
+                                {
+                                    <option value="item.Value" asp-for="DestinationID">
+                                        @item.Text
+                                    </option>
+                                }
+                            </select>
+                        </div>
 						<button class="btn btn-sm btn-outline-dark" onclick="alert" ('Rezervasyonunuz başlangıçta onay bekliyor şeklinde alınacaktır.Rezervasyon onaylanma süreci için güncel rezervasyonlarım menüsünü takip etmeyi unutmayın');">Rezervasyon Yap</button>
 					</form>
 					</div>

@@ -9,5 +9,6 @@ namespace DataAccessLayer.Abstract
 {
    public interface IAppUserDal: IGenericDal<AppUser>
     {
+        public AppUser GetByUserName(string email);
     }
 }

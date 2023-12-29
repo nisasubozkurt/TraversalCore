@@ -45,17 +45,17 @@ namespace BusinessLayer.Concrete
 
         public Reservation TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _reservationDal.GetByID(id);
         }
 
         public List<Reservation> TGetList()
         {
-            throw new NotImplementedException();
+            return _reservationDal.GetList();
         }
 
         public void TUpdate(Reservation t)
         {
-            throw new NotImplementedException();
+            _reservationDal.Update(t);
         }
     }
 }
